@@ -10,6 +10,15 @@
  FROM survey
  GROUP BY 1;
 
+ --- What do you think is the reason?
+
+WITH total_survey AS (SELECT COUNT(DISTINCT user_id) AS 'total'
+FROM survey)
+SELECT s.question,
+    1.0*COUNT(DISTINCT s.user_id)/s1.total
+ FROM survey s, total_survey s1
+ GROUP BY 1;
+
 --- What are the column names?
 SELECT * FROM quiz
 LIMIT 5;
@@ -91,4 +100,3 @@ SELECT COUNT(*) AS 'num_quiz',
     1.0*SUM(is_purchase)/SUM(is_home_try_on)
 FROM funnel
 WHERE number_of_pairs LIKE '%5%';
-
