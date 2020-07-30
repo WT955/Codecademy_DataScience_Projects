@@ -10,9 +10,6 @@
  FROM survey
  GROUP BY 1;
 
- --- What do you think is the reason?
-
-
 --- What are the column names?
 SELECT * FROM quiz
 LIMIT 5;
