@@ -1,3 +1,3 @@
-This repository which worked on Codecademy.com contains Data Science Projects of Warot Tiravongsaroj, 
+This repository contains Data Science projects of Warot Tiravongsaroj, which have been working on Codecademy.com, 
  consisting of 
   - SQL projects
