@@ -4,7 +4,9 @@ This repository contains Data Science projects of Warot Tiravongsaroj, which hav
     - population_queries.sqlite
     - funnel_project.sqlite
     - churn_rate.sqlite
+    ...
     
   - Python
-
+    ...
+    
 .....
