@@ -1,5 +1,10 @@
 This repository contains Data Science projects of Warot Tiravongsaroj, which have been working on Codecademy.com, consisting of multiple coding languages as follows:
-  - SQL
+
+  - SQL included basic queries in SQL database and demonstrated examples of business projects in practice.
+    - population_queries.sqlite
+    - funnel_project.sqlite
+    - churn_rate.sqlite
+    
   - Python
 
 .....
